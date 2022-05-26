@@ -6,6 +6,6 @@
  <h2> Prerequisites </h2>
  Hardware requirements<br>
  ``` 
- Processor - i3
+ Processor  i3
  ```
  
