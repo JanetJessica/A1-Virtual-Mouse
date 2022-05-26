@@ -1,11 +1,23 @@
-<h1> Batch A1 </h1>
-<h1> Virtual Mouse </h1>
- <h1> About the project</h1>
- <p>The motive of our project virtual mouse is to eliminate the existing physical mouse. It can perform all the actions of a physical mouse through dynamic gestures.In addition to the virtual mouse, it also consists of a voice assistant named proton integrated in it.<p>
- <p>When the virtual mouse is activated, the webcam is opened and the nodes of the hands are using the hand detection module and it is preprocessed. It is then compared with the gestures already present in the gesture library and the necessary action is done on the screen. When the proton is activated it prompts the user for input through voice commands and it performs the commands.</p>
- <h2> Prerequisites </h2>
- Hardware requirements<br>
- ``` 
- Processor  i3
+ # Batch A1 
+ # Virtual Mouse 
+ ## About the project
+Gesture Controlled Virtual Mouse makes human computer interaction simple by making use of Hand Gestures and Voice Commands. The computer requires almost no direct contact. All i/o operations can be virtually controlled by using static and dynamic hand gestures along with a voice assistant. This project makes use of the state-of-art Machine Learning and Computer Vision algorithms to recognize hand gestures and voice commands, which works smoothly without any additional hardware requirements. It leverages models such as CNN implemented by MediaPipe 
+## Prerequisites 
+ Hardware requirements
  ```
+ Processor - i3
+ RAM - 4GB
+ Webcam
+ Speakers
+ Microphone
+ ```
+ Software Requirements
+ ```
+ OS - Windows
+ IDE - PyCharm
+ Python
+ Anaconda Distribution
+ ```
+ ## Installation
  
+ Step 1 : Extract the files  Step 2 : Open the Anaconda Command Prompt and type the following commands
